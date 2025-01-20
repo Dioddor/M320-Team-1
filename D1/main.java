@@ -1,4 +1,4 @@
-public class Main {
+public class main {
     public static void main(String[] args) {
         HeatingSystem system = new HeatingSystem(); // Using default constructor
         System.out.println("Current temperature: " + system.getTemperature() + "°C");
