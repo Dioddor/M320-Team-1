@@ -1,13 +1,20 @@
-package D2;
+package Q2;
 
+/**
+ * Main class to demonstrate the functionality of managing students, their tests, and grades.
+ * This program calculates and displays individual and class average grades.
+ */
 public class Main {
+    /**
+     * The entry point of the program.
+     * 
+     * @param args Command-line arguments (not used in this program).
+     */
     public static void main(String[] args) {
         // Create a new school class
-        // Why: This is the starting point for managing students and their grades
         SchoolClass schoolClass = new SchoolClass();
 
         // Create students and add them to the class
-        // Why: A class needs students to calculate grades and display performance
         Student student1 = new Student("Alice");
         student1.addTest(new Test(45, 50));
         student1.addTest(new Test(38, 40));
@@ -27,7 +34,6 @@ public class Main {
         schoolClass.addStudent(student3);
 
         // Display all student details and the class average
-        // Why: This shows the output of the program with individual and class performance
         schoolClass.displayClassDetails();
     }
 }
