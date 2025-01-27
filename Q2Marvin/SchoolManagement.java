@@ -1,4 +1,4 @@
-package Q2;
+package Q2Marvin;
 
 import java.util.ArrayList;
 

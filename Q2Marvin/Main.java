@@ -1,4 +1,4 @@
-package Q2;
+package Q2Marvin;
 
 /**
  * Main class to demonstrate the functionality of managing students, their tests, and grades.
